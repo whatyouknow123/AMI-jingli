@@ -1,2 +1,2 @@
 # AMI-jingli
-Nothing
+Private
