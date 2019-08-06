@@ -157,7 +157,7 @@ def build_graph_json():
         train_uid = value.strip().split()[0]
         train_uids.add(train_uid)
     print("train uids is: ", len(train_uids))
-    cs_uid = test_uids.intersection(train_uids)
+    cs_uid = test_uids.difference(train_uids)
     print("create u_i")
     u_i = []
     i_u = []
